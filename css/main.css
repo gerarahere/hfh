@@ -1,0 +1,17 @@
+body {
+		padding: 0;
+  		font-family: "Arial", sans-serif;
+  		font-size: 14px;
+		}
+li:last-child {
+	background-color: blue;
+}
+li:nth-child(odd) {
+	color: darkred;
+}
+li:nth-child(even) {
+	color: green;
+}
+li:nth-child(3n) {
+	font-size: 18px;
+}
